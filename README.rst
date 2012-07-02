@@ -6,9 +6,8 @@ example:
 --------
 $ filemon.py /home/media/video.avi
 
-Open the video in a video player. Filemon outputs:
+Open the video in a video player. Filemon outputs::
 
-::
     13:32:51,507 INFO  [root] ['/usr/bin/mplayer']: /home/media/video.avi: IN_OPEN
     13:32:51,600 INFO  [root] ['/usr/bin/mplayer', '/usr/bin/mplayer']: /home/media/video.avi: IN_ACCESS
     13:32:51,969 INFO  [root] ['/usr/bin/mplayer', '/usr/bin/mplayer']: /home/media/video.avi: IN_ACCESS
